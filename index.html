@@ -1,82 +1,178 @@
-<!DOCTYPE html>
 <html>
-	<head>
-		<title>anagha's website</title>
-		<style>
-			
-			#grade{
-				color:blue;
-			}
-			p{
-				font-size:15px;
-				padding: 0px 0px 24px 0px;
+<head>
+    <style>
 		
-			}
-			body{
-				font-family: Georgia, Times;
-				margin: 50px
-			}
-			hr{
-				height:0px;
-				border-bottom:1px solid #ddd;
-				max-width: 48px;
-				margin: 5px 0px 30px 0px;
-			}
-			img{
-				height:100px;
-				width:100px;
-				margin-top:50px;
-			}
-			h1{
-				font-size:20px;
-				font-weight:normal;
-				line-height: 24px;
-				padding-bottom:20px;
-				
-				display:block;
-			}
-			i{
-				color:blue;
-			}
+		#top-left{
+			float:left;
+			width:33%;
+			background-color:#0a647d;
+			height:100%;
+		}
+		#top-middle{
+			float:left;
+			width:33%;
+			background-color:#75cde6;
+			height:100%;
+		}
+		#top-right{
+			float:left;
+			width:33%;
+			background-color:#0096bf;
+			height:100%;
+		}
+		.container{
+		 width:80%;
+		 min-height:100%;
+		 overflow:hidden;
+		 
+		 
+        }
+		#heading{
+			float:left;
+			clear:left;
+			width:98.2%;
+			height:20%;
+			text-align:center;
+			padding-top:0%;
+			padding-bottom:2%;
+			Background-color:#1799b3;
+			border-style:solid;
+			border-color:#085261;
+			border-width:thick;
+			font-size:350%;
+			background-image:url("./images/heading.png");
+			color:#003e4f;
 			
-			ul{
-				text-align:left;
-				padding-left:0;
-			}
+		}
+		#sub-heading{
+			font-size:100%;
+		}
+		#bottom-left{
+			float:left;
+			clear:left;
+			width:33%;
+			background-color:#0096bf;
+			min-height:100%;
+			overflow: hidden;
 			
-			a:link, a:visited {
-				text-decoration:none;
-			}
-			ul a:link,ul a:visited{
-				color:#13A4F2;
-				border-bottom:1px dotted #13A4F2;
-				padding-bottom: 2px;
-				font-family:"Arimo",Ariel,Helvetica,Verdana;
-				font-size:12px;
-				text-transform:uppercase;
-				
-			}
-			li{
-				list-style-type:none;
-				margin: 0 0 8px 0;
-			}
-		</style>
-	</head>
-	<body>
-		<header>
-		<img src="./images/anagha.jpg">
-		<h1>Anagha Nair, <br>
-		<i> grade 7C.</i></h1>
-		</header>
-		<div class="intro"> 
-		<hr>
-			<p> I am anagha. I study in Vikhe Patil Memorial School-7c.<br>
-				I like my school</p>
-		<hr>
-			<ul>
-				<li><a href="https://www.vikhepatil.org/"> vikhe patil Memorial school</a></li>
-			</ul>
+		}
+		#bottom-middle{
+			float:left;
+			width:33%;
+			min-height:100%;
+			margin:0;
+			overflow: hidden;
+			background-color:#0096bf;
+		}
+		#bottom-right{
+			float:left;
+			width:33%;
+			background-color:#0a647d;
+			min-height:100%;
+			overflow: hidden;
+		}
+		
+	 	.art-image{
+			width:100%;
+			height:auto;
+			display: block;
+			margin-bottom:0;
+			
+		}
+		
+		.art-text-one{
+			color:white;
+			
+		}
+		#inform1{
+			background-color:#0096bf;
+			margin-top:0;
+		}
+		#inform2{
+			background-color:#75cde6;
+			margin:0;
+		}
+		#inform3{
+			background-color:#3bbfd4;
+			margin:0;
+		}
+		
+		.art-text{
+			text-align: justify;
+			padding-left:4%;
+			padding-right:4%;
+			padding-bottom:4%;
+			padding-top:4%;
+			margin-bottom:0;
+			margin:0;
+			font-size:130%;
+			line-height:118%;
+			
+		}
+		h1{
+			padding-left:4%;
+		}
+		#about-us{
+			border-style:dashed;
+			border-color:white;
+			border-weight:thick;
+			background-color:#75cde6;
+			padding:6%;
+		}
+		#logo{
+			width:25%;
+			height:auto;
+			float:right;
+		}
+		
+		
+        
+    </style>
+</head>
+<body>
+	<div class="container">
+		<div id="top-left" class="column">
+			<img class="art-image" src="./images/Webp.net-resizeimage.jpg"></img>
+			<h1 class="art-text-one">Italy</h1>
+			<p class="art-text-one art-text">Home to many of the world's greatest works of art, architecture and gastronomy, Italy elates, inspires and moves like no other.<br><b>Renaissance art? </b>The Italian Renaissance marked a period of great cultural change in Europe that took place between the 14th and 16th centuries. A number of painters emerged out of the Italian Renaissance and began to show an interest in the beauty of nature and the human body. Surely you wouldn't want to overlook this.</p>
+			
 		</div>
-	</body>
-	
+		<div  id="top-middle" class="column">
+			<p class="art-text-two art-text">France, also known as l'hexagon has been a hub of art, architecture, fashion, music, literature and gastronomy that seduces millions of travellers all around the world.France has always been ahead of the game when it comes to art and culture, The architecture of the eiffel tower is astonishing and attracts tourists from all over the world .France is also the home to the Famous louvre mueseum, which displays the famous art of leonardo da vinci,Eugene Delacriox, Raphael and more. A trip to France will certainly keep you entertained.</p>
+			<h1>France</h1>
+			<img class="art-image" id="france-image" src="./images/france.jpg"></img>
+			
+			
+		</div>
+		<div id="top-right">
+			<img class="art-image" src="./images/spain.jpg">
+			<p class="art-text-three art-text">Spain’s pleasant Mediterranean climate, its dramatic coastlines, charming landscapes, rich historical legacy, eclectic culture, culinary expertise and vibrant nightlife have made it a much sought-after destination, and Spain’s international tourist industry is among the largest in the world.If you are thinking about planning a trip to Spain, we can give you interesting ideas of things you can only do here. For example, celebrating the unique Sant Jordi festival or seeing truly special animals such as the Iberian lynx. The oldest cave painting is located in spain and it is worth to see.
+			<p>
+			<h1>Spain</h1>
+		</div>
+		<div id="heading" class="column">
+			<p>GLOBAL TRAVELS</p>
+			
+		</div>
+		<div id="bottom-left" class="column">
+			<img class="art-image" id="san-fran1" src="./images/san-francisco.jpg"></img>
+			<h1>San Francisco</h1>
+			<p class="art-text-three art-text">
+				 San Francisco is an eclectic city to visit. Here you’ll find hippies, college students, tech giants, artists, immigrant enclaves, and everything in between.The Golden Gate Bridge, San Francisco known for culture, music, diversity, tech, and picturesque views,The next time you’re hit with the travel bug and wind up in San Francisco—be sure to visit this marvellous destination. Reminiscent of Roman ruins, the grand Palace of Fine Arts was designed by Bernard Maybeck for the purpose of displaying artworks during the Panama-Pacific International Exposition.
+			</p>
+			<br>
+			<img class="art-image" id="san-fran2" src="./images/san-fran.jpg">
+		</div>
+		<div  id="bottom-middle" class="column">
+			
+			<p class="art-text"><div id="inform1" class="art-text" >In a world where indulging our passions has become second nature, travel has become more than just an enjoyable getaway, but a means by which to explore interests old and new.</div> <div  class="art-text" id="inform2"> Why and where we choose to travel is a choice motivated by a number of factors, each of which varies from person to person.</div> <div class="art-text" id="inform3">From history and cuisine to discovering the world's best beaches, these are motivators that come up time and again. But recently, there has been a long overdue shift to traveling for the arts.If you're after high art, architecture, food and museums, you’re at the right site</div><div id="about-us" class="art-text"><h2 id="about-head">Global travels</h2><br>If you wish to explore any of these astonishing places,<br><b>contact us-</b> <br>123456789 <br>globaltravelstour@gmail.com <br><br><br>
+			</div></p>
+		</div>
+		<div id="bottom-right">
+			<img class="art-image" src="./images/tate-modern.jpg"></img>
+			<h1 class="art-text-one">London</h1>
+			<p class="art-text-one art-text">London: the heart and soul of the UK is a vibrant and eclectic city with plenty to offer every visitor. Historically important and culturally diverse, modern-day London is a hub of famous landmarks, iconic buildings, and innovative attractions on every level.Sitting grandly on the banks of the Thames is Tate Modern. Britain's national museum of modern and contemporary art has a unique design due to the building's previous life as a power station. Inside, you'll find temporary exhibitions by top artists from Damien Hirst to Gauguin and restaurants offering fabulous views across the city.</p>
+		</div>
+	</div>
+</body>
 </html>
